@@ -1,0 +1,17 @@
+# Coding Agent 核心依赖
+
+# LangGraph & LangChain
+langgraph>=0.1.0
+langchain-core>=0.2.0
+langchain-openai>=0.1.0          # openai / deepseek / dashscope（OpenAI 兼容接口）
+langchain-community>=0.2.0       # 备用：ChatTongyi 等社区模型
+langchain-anthropic>=0.1.0       # anthropic provider（可选）
+
+# 配置解析
+pyyaml>=6.0
+
+# PDF / 文档加载（原 RAG 模块依赖，保持兼容）
+pypdf>=3.0.0
+
+# JWT（原 Web 模块依赖，保持兼容）
+PyJWT>=2.0.0

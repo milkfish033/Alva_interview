@@ -1,0 +1,11 @@
+agent:
+  provider: dashscope       # openai | anthropic | deepseek | dashscope
+  model: qwen3-max
+  temperature: 0
+  max_retry: 5
+
+workspace:
+  path: workspace
+  entry_file: main.py
+  timeout: 30
+  python_executable: python3

@@ -1,0 +1,3 @@
+external_data_path: data/external/records
+model : qwen3-max
+DASHSCOPE_API_KEY : 'sk-320b6b7e1ca349aba4d4e3726d62cbed'
